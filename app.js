@@ -28,7 +28,7 @@ async function saveToObsidian(title, content) {
     const notePath = `${obsidianConfig.folder}/${title}.md`;
 
     const response = await axios.put(
-      `${obsidianConfig.apiUrl}/vault/${notePath}`,
+      `${obsidianConfig.apiUrl}/vault/${obsidianConfig.vaultName}/${notePath}`,
       content,
       {
         headers: {
