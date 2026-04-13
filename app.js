@@ -67,7 +67,7 @@ permalink: ${permalink}
 
 ## Content
 
-${message.text}
+
 `;
 
   // Add thread context if it's a thread
