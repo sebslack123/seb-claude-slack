@@ -67,7 +67,7 @@ permalink: ${permalink}
 
 ## Content
 
-${message.text || ''}
+
 
 `;
 
